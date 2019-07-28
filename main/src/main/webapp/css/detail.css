@@ -1,0 +1,120 @@
+			body{
+				background-color: white;
+			}
+			.clear{
+				clear:both;
+			}
+			.body{
+				font-family: sans-serif;
+				margin:0;
+				padding:0;
+				background-color: white;
+				margin:0 10%;
+			}
+			.index{
+				margin:20px;
+				border-bottom:dashed 1px #D3D3D3;
+			}
+			.movie-name{
+				font-family: Serif;
+				font-style:normal;
+				font-size:26px;
+				margin-top:20px;
+				margin-bottom: 10px;
+				font-weight: lighter;
+				color:#009933;
+			}
+			.info{
+				height:400px;
+			}
+			.info-img{
+				float:left;
+				width:270px;
+				height:400px;
+				border-radius: 8px;
+			}
+			.info-list{
+				float:left;
+				margin-left: 50px;
+				padding-left:10px;
+				height:380px;
+				border-left: solid 1px #D2691E;
+			}
+			.info-list p{
+				font-size:20px;
+				margin-top:10px;
+			}
+			.intro{
+				margin-top:20px;
+				border-top:dashed 1px #D3D3D3;
+			}
+			.title{
+				color:#009933;
+				font-size:20px;
+			}
+			.detail{
+				text-indent:25px;
+			}
+			.view{
+				margin-left:50px;
+				text-align: center;
+			}
+			.play{
+				border-top:dashed 1px #D3D3D3;
+				margin-top: 20px;
+				font-size: 20px;
+				color:#009933;
+			}
+			.vedio{
+				margin:0 10%;
+				margin-bottom: 30px;
+			}
+			.view iframe{
+				margin-left:auto;
+				margin-right:auto;
+			}
+			.comment{
+
+				margin-top:30px;
+				background-color: white;
+			}
+			.comment-title{
+				font-size: 20px;
+				color:#009933;
+			}
+			.comment textarea{
+				border:dashed 1px #D3D3D3;
+				width:85%;
+				height:70px;
+			}
+
+			.conmentUnit{
+				border-top:solid 1px gainsboro;
+				margin-top:15px;
+				padding-top:15px;
+			}
+			.commentHeader{
+
+			}
+			.userName{
+				color:#37a;
+			}
+			.createTime{
+				color:gainsboro;
+			}
+			.content{
+				margin:8px 10px;
+			}
+
+			p{
+				margin-top:20px;
+			}
+
+			.more{
+
+				color:#37a;
+			}
+
+			.bottom{
+				height:30px;
+			}

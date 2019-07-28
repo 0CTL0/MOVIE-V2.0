@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0;
+    font-size:100%;
+    font-family:"Lucida Grande", Verdana, "gill sans mt condensed","宋体";
+}
+.header ul{
+    list-style:none;
+}
+.header a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+.header .bg{
+    background-color: #000000;
+}
+.header{
+    border: solid 0px white;
+    background-color: black;
+    height: 60px;
+    padding:0 10%;
+}
+.header .web-logo{
+    float:left;
+    width:130px;
+    height:60px;
+}
+.heade .category-list{
+    float:left;
+    height: 60px;
+}
+.header .category-list li{
+    float:left;
+    height: 60px;
+    width:70px;
+    text-align: center;
+}
+.header .category-list li>a{
+    color: white;
+    font-size: 16px;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+}
+/* 鼠标移动到链接上 */
+.header .category-list li>a:hover {
+    color: #000000;
+    background-color:white;
+}
+.header .search{
+    float:left;
+    height: 60px;
+    width:280px;
+    text-align: center;
+    line-height: 60px;
+}
+.header .input-movieName{
+    height: 30px;
+    background-color:#424242;
+    color:white;
+}
+.header .submitName{
+    height: 30px;
+    padding:0 5px;
+    width:50px;
+}
+.head .log-reg{
+    float:left;
+    height: 60px;
+    width:80px;
+}
+.header .log-reg li{
+    color: white;
+    /*margin:auto;*/
+    text-align: center;
+    height: 30px;
+
+}
+.header .log-reg li img{
+    width:20px;
+    height: 20px;
+    padding-top:8px;
+}
+.header .log-reg a{
+    color:white;
+}
+.header .log-reg a:hover {
+    color: #00CED1;
+}
+

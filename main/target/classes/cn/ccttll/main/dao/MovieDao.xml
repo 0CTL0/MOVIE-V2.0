@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.ccttll.main.dao.MovieDao">
+    <resultMap id="movie" type="Movie">
+        <id property="movieId" column="mid" javaType="Integer"/>
+        <result property="movieName" column="mname" javaType="String"/>
+        <result property="movieImgUrl" column="mimgurl" javaType="String"/>
+        <result property="movieScore" column="mscore" javaType="String"/>
+        <result property="movieDirector" column="mdirector" javaType="String"/>
+        <result property="movieStar" column="mstar" javaType="String"/>
+        <result property="movieType" column="mtype" javaType="String"/>
+        <result property="movieArea" column="marea" javaType="String"/>
+        <result property="movieYear" column="myear" javaType="String"/>
+        <result property="movieSummary" column="msumary" javaType="String"/>
+        <result property="moviePlayUrl" column="mplayurl" javaType="String"/>
+
+    </resultMap>
+
+    <select id="selectByMovieType" resultMap="movie">
+        SELECT * FROM movie WHERE mtype LIKE "%"#{movieType}"%" LIMIT 0,#{pageSize};
+    </select>
+    <select id="selectByMovieId" resultMap="movie">
+        SELECT * FROM movie WHERE mid=#{movieId};
+    </select>
+    <select id="selectByMovieName" resultMap="movie">
+        SELECT * FROM movie WHERE mname LIKE "%"#{movieName}"%";
+    </select>
+
+    <!--暂时搞不懂结果集
+    <select id="selectForMovieTypeCount" resultMap="Intege">
+        SELECT COUNT(*) total FROM movie WHERE mtype LIKE '%动作片%'
+    </select>
+    -->
+
+</mapper>

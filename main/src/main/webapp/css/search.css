@@ -1,0 +1,45 @@
+.clear{
+    clear:both;
+}
+* {
+    font-family: sans-serif;
+    /* margin:0;
+    padding:0; 原始的边距填充还挺好看。。。。*/
+}
+.search-main{
+    margin:0 10%;
+}
+.tip{
+    margin: 20px 0;
+}
+.movieRow{
+    border-bottom:dashed 1px gray;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.num{
+    margin-left:20px;
+    border-bottom:dashed 1px gray;
+}
+.movieUnit2{
+    margin-left:20px;
+    float:left;
+
+}
+.movieUnit2 h3{
+    text-align:center;
+    color: #4682B4;
+}
+.movieUnit2 img{
+    width:120px;
+    height:160px;
+}
+.movieInfo{
+    float:left;
+    margin-left:30px;
+    width:600px;
+    padding-top:50px;
+}
+.movieInfo p{
+    font-size:14px;
+}

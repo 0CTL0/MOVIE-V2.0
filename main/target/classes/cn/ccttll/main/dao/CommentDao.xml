@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.ccttll.main.dao.CommentDao">
+    <resultMap id="comment" type="Comment">
+        <result property="movieId" column="movieId" javaType="Integer"/>
+        <result property="userName" column="userName" javaType="String"/>
+        <result property="comment" column="comment" javaType="String"/>
+        <result property="commentDataTime" column="commentDataTime" javaType="String"/>
+        <result property="userPhoto" column="userPhoto" javaType="String"/>
+    </resultMap>
+
+    <insert id="insertComment" parameterType="Comment">
+        INSERT comments(movieId,userName,comment,commentDataTime,userPhoto) VALUES(#{movieId},#{userName},#{comment},#{commentDataTime},#{userPhoto});
+    </insert>
+    <select id="selectBymovieId" resultMap="comment">
+       SELECT * FROM comments  WHERE movieId =#{movieId} ORDER BY commentId DESC;
+    </select>
+</mapper>

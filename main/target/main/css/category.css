@@ -1,0 +1,130 @@
+.clear{
+    clear:both;
+}
+.contain{
+    margin: 0 10%;
+}
+.main{
+    float:left;
+    width: 75%;
+}
+.title{
+    margin: 10px 0;
+}
+.new{
+    float:left;
+    width:70px;
+    height: 28px;
+    background-color:lightgrey;
+    margin-left:40px;
+}
+.hot{
+    float:left;
+    margin-left:30px;
+    width:70px;
+    height: 28px;
+    background-color:lightgrey;
+}
+.new a,.hot a{
+    color:dimgrey;
+    /* margin:auto;
+    text-align: center;不起效果？ */
+
+    font-size:18px;
+    margin-left:16px;
+    text-decoration: none;
+}
+
+
+.movieUnit{
+    float: left;
+    margin-right:3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    border-radius: 6px;
+}
+.movieUnit img{
+    float:left;
+    width:150px;
+    height:200px;
+}
+.movieUnit p{
+    text-align: center;
+}
+
+.rank{
+    float:left;
+    margin-top:30px;
+    background-color:whitesmoke;
+    padding:0 5px;
+    width: 20%;
+}
+.rank-title{
+    color:royalblue;
+    font-size:24px;
+    margin:10px 0;
+}
+.rank-list a{
+    color:black;
+}
+a:hover {
+    color:#FF0066;}  /* 鼠标移动到链接上 */
+.rank-list p{
+    font-size:16px;
+    font-style: italic;
+    margin: 15px 0;
+    margin-left:5px;
+}
+.num {
+    float: left;
+    font-style: normal;
+}
+.moviename{
+    float:left;
+
+}
+.moviescore{
+    float:right;
+}
+
+.pagefy{
+    float:left;
+    margin-left:30%;
+    margin-top:10px;
+}
+.pagefy ul{
+    list-style-type: none;
+}
+.pagefy ul li{
+    float:left;
+    margin-left:5px;
+    padding:5px 0px;
+    border:1px solid #428BCA;
+}
+.pagefy ul li a{
+    padding:5px 10px;
+    color:#428BCA;
+    text-decoration: none;
+}
+.pagefy ul li a:hover{
+    color:#428BCA;
+    background-color:#EEEEEE;
+}
+.fatie{
+    float:left;
+    margin-left:20px;
+}
+.fatie button{
+    width:80px;
+    height:30px;
+    color:white;
+    background-color:#428BCA;
+    border:1px solid #428BCA;
+    border-left:2px solid white;
+    border-top:2px solid white;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:5px 5px 12px #ccc;
+}

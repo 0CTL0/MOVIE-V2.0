@@ -1,0 +1,28 @@
+.footer{
+    margin:0 10%;
+    margin-top:50px;
+    padding-top:10px;
+    border-top: solid 1px #e2e2e2;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    float:left;
+    width: 15%;
+}
+.footer a{
+    color:black;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:#bc2931;
+}
+.declaration{
+    margin:30px auto;
+}
+.declaration p{
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+}
